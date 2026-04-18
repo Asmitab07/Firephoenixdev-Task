@@ -4,12 +4,6 @@ A responsive personal portfolio website built using **ReactJS** to showcase my s
 
 ---
 
-## 🚀 Live Demo
-Add your live project link here (if deployed)  
-👉 https://your-live-link.com
-
----
-
 ## 📌 Features
 
 - 🏠 Home section with name, intro, and profile image  
