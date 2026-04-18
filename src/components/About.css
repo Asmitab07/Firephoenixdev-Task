@@ -1,0 +1,159 @@
+/* SECTION */
+.about-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  padding: 60px 0;
+}
+
+/* CONTAINER CARD LOOK */
+.about-section .container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE WRAPPER */
+.about-img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-img-wrapper img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+/* IMAGE HOVER */
+.about-img-wrapper img:hover {
+  transform: scale(1.05);
+}
+
+/* TITLE */
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.about-text {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* SKILLS TAGS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.skills span {
+  background: linear-gradient(135deg, #ff4d4d, #7c3aed);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+/* TAG HOVER */
+.skills span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+/* SKILL BARS */
+.skill-bars {
+  margin-top: 10px;
+}
+
+.bar {
+  margin-bottom: 15px;
+}
+
+.bar p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* PROGRESS BAR BG */
+.progress {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* PROGRESS FILL */
+.progress-fill {
+  height: 100%;
+  border-radius: 10px;
+  animation: fillBar 1.5s ease forwards;
+}
+
+/* SKILL COLORS */
+.progress-fill.html {
+  width: 90%;
+  background: linear-gradient(90deg, #ff4d4d, #ff7a7a);
+}
+
+.progress-fill.css {
+  width: 85%;
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+.progress-fill.js {
+  width: 75%;
+  background: linear-gradient(90deg, #facc15, #fde047);
+}
+
+.progress-fill.react {
+  width: 70%;
+  background: linear-gradient(90deg, #06b6d4, #67e8f9);
+}
+
+/* ANIMATION */
+@keyframes fillBar {
+  from {
+    width: 0;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .about-section .container {
+    padding: 25px 20px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .about-img-wrapper img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+}

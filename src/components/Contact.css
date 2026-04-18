@@ -1,0 +1,72 @@
+/* SECTION */
+.contact-section {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* TITLE */
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.contact-text {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* INFO */
+.contact-info p {
+  margin: 5px 0;
+  color: #444;
+}
+
+/* CARD */
+.contact-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* INPUTS */
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
+
+/* BUTTON */
+.contact-btn {
+  background: linear-gradient(135deg, #ff4d4d, #7c3aed);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-section {
+    text-align: center;
+  }
+
+  .contact-card {
+    margin-top: 20px;
+  }
+}
