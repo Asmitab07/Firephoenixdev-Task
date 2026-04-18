@@ -25,4 +25,22 @@ A responsive personal portfolio website built using **ReactJS** to showcase my s
 
 ---
 
-## 📂 Project Structure
+---
+
+## ⚙️ How to Run This Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+### 2.Navigate to project folder
+cd your-repo-name
+
+### 3.Install dependencies
+npm install
+
+### 4.Start the development server
+npm run dev
+
+
+
